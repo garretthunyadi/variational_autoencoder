@@ -126,9 +126,9 @@ x_test = x_test.astype('float32') / 255
 # network parameters
 input_shape = (original_dim, )
 intermediate_dim = 512
-batch_size = 128
+batch_size = 8192#4096#2048#1024#512#128
 latent_dim = 2
-epochs = 50
+epochs = 500
 
 # VAE model = encoder + decoder
 # build encoder model
